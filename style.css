@@ -39,5 +39,69 @@ html, body {
     text-align: right;
 
 }
+#elems{
+    /* background-color: red; */
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
 
-/* v- 14:04 */
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+#elem2{
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+   border-right: 2px solid black;
+   border-left: 2px solid black;
+   padding: 20px 60px;
+   text-align: center;
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+#imag-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#elem1 #imag-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem3 #imag-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#imag-div:hover img{
+    scale: 1.1;
+}
+#elem1 h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
+}
+#elem1 h4 span{
+    background-color: rgb(188, 56, 8);
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+}
+/* v - 27:28 */
