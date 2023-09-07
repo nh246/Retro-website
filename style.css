@@ -1,3 +1,13 @@
+@font-face {
+    font-family: domain;
+    src: url(./domaine.ttf);
+}
+@font-face {
+    font-family: canopee;
+    src: url(./canopee.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +24,7 @@ html, body {
     width: 100vw;
     background-color: #C6BEB5;
     position: relative;
+    overflow-x: hidden;
 }
 #nav{
     height: 110px;
@@ -55,7 +66,7 @@ html, body {
     
 }
 #elem2{
-    width: 25%;
+    width: 30%;
     height: 100%;
     /* background-color: blue; */
    border-right: 2px solid black;
@@ -90,18 +101,90 @@ html, body {
 #imag-div:hover img{
     scale: 1.1;
 }
+/* Elem 1 */
 #elem1 h4 {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: canopee;
 }
 #elem1 h4 span{
-    background-color: rgb(188, 56, 8);
-    color: white;
+    background-color: #B73C12;
+    color: rgba(255, 255, 255, 0.588);
     font-weight: 100;
     font-size: 18px;
     padding: 4px;
     margin-left: 10px;
+    border-radius: 4px;
+
 }
-/* v - 27:28 */
+#elem1 p{
+    font-size: 18px;
+    font-family: domain;
+    /* font-weight: 200; */
+    font-weight: 100;
+    color: #706c68;
+}
+
+/* elem 3 */
+
+#elem3 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
+}
+#elem3 h4 span{
+    background-color: #B73C12;
+    color: rgba(255, 255, 255, 0.588);
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 4px;
+
+}
+#elem3 p{
+    font-size: 18px;
+    font-family: domain;
+    /* font-weight: 200; */
+    font-weight: 100;
+    color: #706c68;
+}
+
+/* Elem 2 */
+#elem2 h2{
+    font-family: canopee;
+    font-size: 75px;
+    font-weight: 100;
+    
+}
+#elem2 h3{
+    font-family: domain;
+    font-size: 30px;
+    font-weight: 100;
+    color: #706c68;
+    margin: 15px 0;
+
+}
+#elem2 h6{
+    font-family: domain;
+    font-size: 20px;
+    font-weight: 100;
+    color: #706c68;
+    margin-top: 10px;
+
+}
+/* MIRANDA */
+#page1 h1{
+    font-size: 507px;
+    letter-spacing: -25px;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C6BEB5;
+    line-height: 402px;
+    width: 96%;
+    margin-left: 2%;
+}
+ /* v- 40:00 */
