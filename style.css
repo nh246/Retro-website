@@ -19,10 +19,11 @@ html, body {
     width: 100%;
 }
 
-#page1{
+#page1 {
     height: 110vh;
     width: 100vw;
-    background-color: #C6BEB5;
+
+    background-color: #C4BCB3;
     position: relative;
     overflow: hidden;
 }
@@ -177,20 +178,42 @@ html, body {
 }
 /* MIRANDA */
 #page1 h1{
-    font-size: 507px;
+    font-size: 500px;
     letter-spacing: -25px;
     font-weight: 100;
     font-family: canopee;
     background-color: #1C1C19;
     color: #C6BEB5;
-    line-height: 402px;
-    width: 96%;
+    line-height: 500px;
+    width: 94%;
     margin-left: 2%;
 }
 #page2{
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-color: #C6BEB5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-/* v-51:00 */
+#page2-left{
+height: 100%;
+width: 30%;
+background-color: #B73C12;
+}
+#page2-left h2{
+    font-family: canopee;
+    font-size: 150px;
+    text-align: center;
+    line-height: 180px;
+}
+#page2-left h2 span{
+    font-family: canopee;
+    font-size: 210px;
+    text-align: center;
+    line-height: 130px;
+}
+#page2-right{
+    height: 100%;
+}
+/* v:59:00 */
