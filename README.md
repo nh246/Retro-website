@@ -1,4 +1,4 @@
 # Retro-website
 Making a retro website
-
-The original website link(https://www.niccolomiranda.com)
+this is the link to visit the live website -
+https://nh246.github.io/Retro-website
