@@ -1,10 +1,10 @@
 @font-face {
     font-family: domain;
-    src: url(./domaine.ttf);
+    src: url(./fonts/domaine.ttf);
 }
 @font-face {
     font-family: canopee;
-    src: url(./canopee.ttf);
+    src: url(./fonts/canopee.ttf);
 }
 
 
